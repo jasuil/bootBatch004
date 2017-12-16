@@ -8,7 +8,7 @@ import org.springframework.context.annotation.ComponentScan;
 import demo.repositories.repo;
 
 @SpringBootApplication
-@ComponentScan ({"demo.repositories"})
+//@ComponentScan ({"demo.repositories","demo.entities"})
 public class BootBatch004Application {
 	
 	public static void main(String[] args) {
